@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Awesome Vanilla JavaScript Projects</h1>
-<h3>A Curated List of Awesome Beginner-Friendly projects made with Vanilla JavaScript.</h3>
+<h3>A Curated List of Awesome Beginner-Friendly Projects Made with Vanilla JavaScript.</h3>
 
 <img src="logo.png" height=150px width=300px>
   
