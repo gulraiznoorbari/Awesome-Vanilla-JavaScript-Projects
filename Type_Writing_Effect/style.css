@@ -1,0 +1,43 @@
+body {
+    font-family: "Fira Code", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    margin-left: 20px;
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 6%;
+    right: -5px;
+    border-right: 2px solid white;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
